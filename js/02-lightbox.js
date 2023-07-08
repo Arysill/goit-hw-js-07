@@ -25,7 +25,7 @@ function createGalleryItemsMarkup(arr) {
         createGalleryItemsMarkup(galleryItems)
     );
 
-    const lightbox = new SilmpleLighbox('.gallery li a', {
+    const lightbox = new SimpleLightbox('.gallery li a', {
         captionsData: 'alt',
         captionPosition: 'bottom',
         captionDelay: 250,
